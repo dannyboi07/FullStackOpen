@@ -65,7 +65,7 @@ function App() {
   const handleNextAnecClk = () => {
     let anecNum = selected
     while ( anecNum === selected) {
-      anecNum = Math.floor(Math.random() * 7);
+      anecNum = Math.floor(Math.random() * anecdotes.length);
       if (anecNum !== selected) {
         setSelected(anecNum);
         break;
