@@ -1,0 +1,70 @@
+/* * {
+    margin: 0;
+} */
+
+/* .formContainer {
+    border: 1px solid;
+    /* max-width: 65%; 
+} */
+
+.formbox {
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.formbox input {
+    margin-bottom: 0.5em;
+}
+
+.formbox button {
+    margin: 0 auto;
+    margin-top: 0.5em;
+    max-width: 7em;
+}
+
+.createBlog {
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 0;
+    max-width: 75%;
+    border: 1px solid;
+    border-radius: 1em;
+}
+
+.bloglist {
+    margin: 0;
+    margin-bottom: 0.5em;
+    margin-right: 3em;
+
+    list-style-type: none;
+}
+
+.blogitem {
+    border: 1px solid;
+    border-radius: 0.3em;
+
+    margin-left: 0;
+    margin-top: 0.5em;
+
+    /* padding: 0.1em 0 0.2em 0; */
+    /* position: relative; */
+};
+
+.notif {
+    margin: 0 auto;
+    max-width: 75%;
+    border-radius: 0.5em;
+    border: 5px solid;
+    background-color: #bbbbbb;
+}
+
+.noErrorNotif {
+    border-color: green;
+    color: green;
+}
+
+.error {
+    border-color: red;
+    color: red;
+}
