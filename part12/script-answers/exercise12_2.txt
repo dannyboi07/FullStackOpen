@@ -1,0 +1,34 @@
+Script started on 2022-05-27 20:50:49+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="74" LINES="35"]
+[?2004h]0;daniel@daniel-Lenovo-V110-15ISK: ~[01;32mdaniel@daniel-Lenovo-V110-15ISK[00m:[01;34m~[00m$ suco[K[Kdo docker run -it ubuntu bash
+[?2004l
+[sudo] password for daniel: 
+[?2004h]0;root@ef53ed618760: /root@ef53ed618760:/# 
+[K]0;root@ef53ed618760: /root@ef53ed618760:/# mkdir     ls
+[?2004l
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@ef53ed618760: /root@ef53ed618760:/# cd usr
+[?2004l
+[?2004h]0;root@ef53ed618760: /usrroot@ef53ed618760:/usr# ls
+[?2004l
+[0m[01;34mbin[0m    [01;34minclude[0m  [01;34mlib32[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34mshare[0m
+[01;34mgames[0m  [01;34mlib[0m      [01;34mlib64[0m  [01;34mlibx32[0m   [01;34msbin[0m   [01;34msrc[0m
+[?2004h]0;root@ef53ed618760: /usrroot@ef53ed618760:/usr# cd ../
+[?2004l
+[?2004h]0;root@ef53ed618760: /root@ef53ed618760:/# mkdir /usr/src/app
+[?2004l
+[?2004h]0;root@ef53ed618760: /root@ef53ed618760:/# touich   ch /sr/   usr/src/app/indexjs  .js
+[?2004l
+[?2004h]0;root@ef53ed618760: /root@ef53ed618760:/# [Kcd /usr/src/app
+[?2004l
+[?2004h]0;root@ef53ed618760: /usr/src/approot@ef53ed618760:/usr/src/app# ls
+[?2004l
+index.js
+[?2004h]0;root@ef53ed618760: /usr/src/approot@ef53ed618760:/usr/src/app# exit
+[?2004l
+exit
+[?2004h]0;daniel@daniel-Lenovo-V110-15ISK: ~[01;32mdaniel@daniel-Lenovo-V110-15ISK[00m:[01;34m~[00m$ exit
+[?2004l
+exit
+
+Script done on 2022-05-27 20:52:39+05:30 [COMMAND_EXIT_CODE="0"]

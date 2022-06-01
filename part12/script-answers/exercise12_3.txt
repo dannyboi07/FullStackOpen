@@ -1,0 +1,10 @@
+Script started on 2022-05-27 21:57:42+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="74" LINES="38"]
+[?2004h]0;daniel@daniel-Lenovo-V110-15ISK: ~[01;32mdaniel@daniel-Lenovo-V110-15ISK[00m:[01;34m~[00m$ sudo docker container start -i priceles s_wiles
+[?2004l[sudo] password for daniel: 
+[?2004h]0;root@d66fb86ac492: /root@d66fb86ac492:/# [K]0;root@d66fb86ac492: /root@d66fb86ac492:/# nano /usr/src/app/index.js
+[?2004l[?2004h[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;31H(B[0;7m[ Reading... ](B[m[36;30H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [14b/usr/src/app/index.js [22b [1;73H(B[m[37d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[37;57H(B[0;7m^T(B[m Execute[38d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;52H(B[0;7m*[73G(B[m[?12l[?25h[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h"[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[36d[K[?12l[?25h[2;18Ho[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[2;13H(B[0;1m[35m"Hello World"[39m(B[m[?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[36;31H(B[0;7m[ Writing... ](B[m[1;52H(B[0;7m [73G(B[m[36;30H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;28H[?25l[36d[J[38d[?12l[?25h[38;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@d66fb86ac492: /root@d66fb86ac492:/# [Kexit
+[?2004lexit
+[?2004h]0;daniel@daniel-Lenovo-V110-15ISK: ~[01;32mdaniel@daniel-Lenovo-V110-15ISK[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2022-05-27 21:59:57+05:30 [COMMAND_EXIT_CODE="0"]
