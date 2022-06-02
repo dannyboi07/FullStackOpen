@@ -1,0 +1,11 @@
+services:
+  socio-frontend:
+    image: socio-frontend
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 3000:3000
+    container_name: socio-fe-dev-ctn
