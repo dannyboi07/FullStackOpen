@@ -9,11 +9,10 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
 	const onClickComplete = (todo) => () => {
 		completeTodo(todo);
 	};
-
 	return (
 		<>
 			{todos
-				.map((todo) => {
+				.map((todo, i) => {
 					const doneInfo = (
 						<>
 							<span>This todo is done</span>
@@ -43,18 +42,8 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
 					);
 
 					return (
-						// <div
-						// 	style={{
-						// 		display: "flex",
-						// 		justifyContent: "space-between",
-						// 		maxWidth: "70%",
-						// 		margin: "auto",
-						// 	}}
-						// >
-						// 	<span>{todo.text}</span>
-						// 	{todo.done ? doneInfo : notDoneInfo}
-						// </div>
                         <Todo 
+                        key={i}
                         text={todo.text}
                         done={ todo.done ? doneInfo : notDoneInfo }/>
 					);
@@ -65,3 +54,15 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
 };
 
 export default TodoList;
+
+// <div
+// 	style={{
+// 		display: "flex",
+// 		justifyContent: "space-between",
+// 		maxWidth: "70%",
+// 		margin: "auto",
+// 	}}
+// >
+// 	<span>{todo.text}</span>
+// 	{todo.done ? doneInfo : notDoneInfo}
+// </div>
