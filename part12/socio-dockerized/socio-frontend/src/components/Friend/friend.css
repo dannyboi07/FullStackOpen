@@ -1,0 +1,44 @@
+.frnd-ctn {
+    width: 100%;
+    height: 85px;
+    padding: 0.5em;
+    
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.25s, transform 0.25s;
+}
+
+/* .frnd-ctn--active {
+    /* background-color: rgb(209, 209, 209); */
+    /* background-color: brown !important;*/ /* Fighting for specificity with background-color applied by styled component */
+    /* transform: scaleY(1.2); */
+    /* background-color: rgba(255, 255, 255, 0); */
+    /* filter: brightness(80%);
+} */
+/* 
+.frnd-ctn:not(.frnd-ctn--active):hover {
+    cursor: pointer;
+    transform: scaleY(1.1);
+} */
+
+.frnd-left-ctn {
+    height: 100%;
+    background-color: white;
+    border-radius: 0.25em;
+}
+
+.frnd-left-ctn > img {
+    height: 100%;
+    border-radius: 0.25em;
+}
+
+.frnd-rgt-ctn {
+    width: 100%;
+    padding: 0.35em 0.75em;
+}
+
+.frnd-rgt-ctn > p {
+    font-size: 0.825rem;
+}
