@@ -1,0 +1,29 @@
+services:
+  socio-backend:
+    image: socio-backend
+    build: 
+      context: ./socio-backend
+      dockerfile: Dockerfile
+    environment:
+      - env=private-config-vars
+    container_name: socio-be-ctn
+  socio-frontend:
+    image: socio-frontend
+    build:
+      context: ./socio-frontend
+      dockerfile: Dockerfile
+      args:
+        - BACKEND_URL=/api
+    container_name: socio-fe-ctn
+    depends_on:
+      - socio-backend
+  nginx-proxy:
+    image: nginx:1.20-alpine
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy-ctn
+    depends_on:
+      - socio-backend
+      - socio-frontend

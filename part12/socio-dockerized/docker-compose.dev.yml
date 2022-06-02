@@ -1,0 +1,25 @@
+services:
+  socio-backend-dev:
+    image: socio-backend
+    build: 
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    environment:
+      - env=private-config-vars
+    ports:
+      - 3001:3000
+    container_name: socio-be-dev-ctn
+  socio-frontend-dev:
+    image: socio-frontend
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 3000:3000
+    container_name: socio-fe-dev-ctn
+    depends_on:
+      - socio-backend-dev
