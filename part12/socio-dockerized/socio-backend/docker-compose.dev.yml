@@ -1,0 +1,25 @@
+services:
+  socio-backend-dev:
+    image: socio-backend
+    build: 
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    environment:
+      - PORT=3000
+      - AWS_ACCESS_KEY_ID=AKIATH5H5WSQI545ZJOC
+      - AWS_RDS_DB=socio_db_postgres
+      - AWS_RDS_HOSTNAME=socio-database.ct3ogbg0qeja.ap-south-1.rds.amazonaws.com
+      - AWS_RDS_PASSWORD=danProjectPostgre
+      - AWS_RDS_PORT=5432
+      - AWS_RDS_USERNAME=postgres
+      - AWS_S3_BUCKET_NAME=sodio-database-dev
+      - AWS_S3_REGION=ap-south-1
+      - AWS_SECRET_ACCESS_KEY=nCmNyI40JN1auFY+Hu+1xwcWkUSxe3CjsN5VQ1UF
+      - PRIVATE_VAPID_KEY=swkcvXe0xn3YxGbh4j5Y3-oti_wqrs0MUDbZlKgKdR8
+      - PUBLIC_VAPID_KEY=BMvqlc4V9Z1P2ktFvoE3V45_qCRkREuNWCbbaoZeJRiUyVb7GKg-IbiBhCL3fEejYby1EPDuuRQJbdY7Cv0GFUw
+      - SECRET=mYVErYsEcReTstrINgFoRProJecT
+    ports:
+      - 3001:3000
+    container_name: socio-be-dev-ctn
