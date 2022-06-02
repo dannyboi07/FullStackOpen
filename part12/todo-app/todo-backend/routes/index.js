@@ -13,6 +13,7 @@ router.get("/", async (req, res) => {
 	res.send({
 		...configs,
 		visits,
+        url: process.env.REV_PROXY_URL || "not defined"
 	});
 });
 

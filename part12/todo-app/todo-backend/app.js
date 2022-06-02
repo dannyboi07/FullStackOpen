@@ -17,7 +17,9 @@ const todosRouter = require("./routes/todos");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: process.env.REV_PROXY_URL
+}));
 
 app.use(logger("dev"));
 app.use(express.json());
